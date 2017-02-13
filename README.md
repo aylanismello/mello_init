@@ -71,7 +71,8 @@ export NVM_DIR="$HOME/.nvm"
 ### Setting up Node via NVM
 
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh |bash```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh |bash
+```
 or script [found here](https://github.com/creationix/nvm)
 
 ```bash
