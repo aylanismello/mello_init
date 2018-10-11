@@ -42,6 +42,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 
+alias python=python3
+alias pip=pip3
+alias prp="pipenv run python"
+
 eval "$(hub alias -s)"
 eval "$(rbenv init -)"
 ```
@@ -75,6 +79,22 @@ export PATH=/Users/${MY_HOME_DIR_NAME}/.rbenv/shims:$PATH
 
 To test that rbenv + its shims are set up correctly,
 ` which gem ` *should return the path to our shims folder ❤️*
+
+#### Installing Python + pipenv 🐍
+```
+  brew install Python
+  pip install pipenv
+  #install this tho
+  pip install scdl
+```
+
+
+#### Installing Postgres <3
+```
+  brew install postgres
+  brew services start postgresql
+```
+
 
 #### ~/.hyper.js file
 ```javascript
