@@ -53,7 +53,7 @@ eval "$(rbenv init -)"
 ### Setting up Node via NVM
 
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh |bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 or script [found here](https://github.com/creationix/nvm)
 
@@ -95,6 +95,16 @@ To test that rbenv + its shims are set up correctly,
   brew services start postgresql
 ```
 
+#### Installing Redis <3
+```
+  brew install redis
+  brew services start redis
+```
+
+#### Install Heroku CLI
+```
+  brew install heroku/brew/heroku
+```
 
 #### ~/.hyper.js file
 ```javascript
