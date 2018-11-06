@@ -31,6 +31,7 @@ gem install bro
 # pipenv / python
 brew install python
 pip3 install pipenv
+
 #install these too
 pip3 install scdl
 pip3 install youtube-dl
@@ -45,3 +46,6 @@ brew services start redis
 
 # heroku
 brew install heroku/brew/heroku
+
+#awscli
+brew install awscli
