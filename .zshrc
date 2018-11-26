@@ -40,3 +40,5 @@ alias bc-dev="~Documents/BurnCartelWeb"
 
 eval "$(rbenv init -)"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+eval "$(hub alias -s)"
+

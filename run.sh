@@ -49,3 +49,6 @@ brew install heroku/brew/heroku
 
 #awscli
 brew install awscli
+
+#hub
+brew install hub
