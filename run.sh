@@ -16,7 +16,7 @@ nvm install $NODE_VERSION
 nvm use $NODE_VERSION
 # + yarn
 # 
-brew install yarn --without-node
+brew install yarn --ignore-dependencies
 
 
 # rbenv / ruby
